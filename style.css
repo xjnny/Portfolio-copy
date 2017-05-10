@@ -1,0 +1,146 @@
+
+html {
+	font-size: 16px
+}
+
+h1 {
+	font-size: 50px
+}
+
+h2 {
+	font-size: 37px
+}
+
+h3 {
+	font-size: 28px
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Martel";
+}
+nav {
+  position: fixed;
+  display: block;
+  top: 50px;
+  right: 50px;
+}
+body {
+	font-family: "Karla";
+/* 	border: 20px solid rgba(77, 166, 172, .35);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	padding: 20px 50px; */
+}
+
+section.about {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 20px 50px;
+  height: 94vh;
+  border: 20px solid rgba(77, 166, 172, .35);
+}
+section.work {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 20px 50px;
+  height: 94vh;
+  background-color: rgba(77, 166, 172, .35);
+}
+section.contact {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 20px 50px;
+  height: 94vh;
+  border: 20px solid rgba(77, 166, 172, .35);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav__link {
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+}
+
+.nav__link::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: rgba(77, 166, 172, 1);
+	transition: width .3s;
+}
+
+.nav__link:hover::after {
+	width: 100%;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 10px 20px;
+}
+
+header .site__header{
+display: none;
+}
+.site__header {
+	font-size: 64px;
+	display: flex;
+	margin: 20px 0;
+}
+
+.character-wrapper {
+}
+
+.character-replacement {
+	display: none;
+}
+
+.character-original {
+	display: inline;
+	font-weight: 600;
+}
+
+.space {
+ margin-left: 12px;	
+}
+
+
+/*/// about*/
+.about {
+	margin: 0 5%;
+}
+.about__text {
+	padding: 150px 0 50px 0;
+	width: 700px;
+}
+
+.about__text p {
+font-size: 32px;	
+}
+.about__image {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  right: 0;
+	width: 40%;
+	height: 70vh;
+	background-color: gainsboro;
+  z-index: -1;
+	
+}
+
+

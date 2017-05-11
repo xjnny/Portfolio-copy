@@ -9,18 +9,19 @@
 	<link rel="stylesheet" href="style.css"> </head>
 
 <body>
-
- <section id="about" class="about">
-  <header>
-		<nav>
+<header>
+		<nav class="navbar">
 			<ul>
-				<li><a class="nav__link" href="#">home</a></li>
-				<li><a class="nav__link" href="#">about</a></li>
-				<li><a class="nav__link" href="#">work</a></li>
-				<li><a class="nav__link" href="#">contact</a></li>
+				<li><a class="nav__link" href="#about">about</a></li>
+				<li><a class="nav__link" href="#work">work</a></li>
+				<li><a class="nav__link" href="#contact">contact</a></li>
 			</ul>
 		</nav>
 	</header>
+
+
+ <section id="about" class="about">
+  
 <div class="about__text">
 <a href="">
 		<h2 class="site__header ">
@@ -85,12 +86,38 @@
 <div class="about__image">	
 </div>
 </section>
-<section class="work">
+
+<section id="work" class="work">
 	<p></p>
 </section>
 
-<section class="contact">
+<section id="contact" class="contact">
 	<p></p>
+<form>
+ <input class="half" type="text" placeholder="First Name"> 
+ <input class="half" type="text" placeholder="Last Name">
+ <input class="drop" type="text" placeholder="Email">
+ <input class="drop" type="text" placeholder="Subject">
+ <textarea class="drop" type="text" placeholder="Message"></textarea> 
+
+<label>
+    <input type="submit" />
+ <div class="container">
+ <div class="circular">
+  <svg viewBox="0 0 100 100">
+    <defs>
+      <path d="M 0,50 a 50,50 0 1,1 0,1 z" id="circle" />
+    </defs>
+    <text>
+      <textPath xlink:href="#circle">
+        Get In Touch! Submit!
+      </textPath></text>
+  </svg>
+</div>
+</div>
+	</label>
+</form>
+	
 </section>
 	
 </body>

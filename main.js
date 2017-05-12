@@ -11,3 +11,8 @@ $(document).ready(function(){
         $(this).find(replacement).css("display", "none");
     });
 });
+
+
+$(document).ready(function($) {
+			$('.my-slider').unslider();
+});

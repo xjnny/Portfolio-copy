@@ -108,14 +108,15 @@
 </section>
 
 <section id="contact" class="contact">
-	<p></p>
-<form>
- <input class="half" type="text" placeholder="First Name"> 
- <input class="half" type="text" placeholder="Last Name">
- <input class="drop" type="text" placeholder="Email">
- <input class="drop" type="text" placeholder="Subject">
- <textarea class="drop" type="text" placeholder="Message"></textarea> 
+	
+	<form action="https://formspree.io/your@email.com" method="POST">
 
+ <input class="half" type="text" name="name" placeholder="First Name"> 
+ <input class="half" type="text" name="name" placeholder="Last Name">
+ <input class="drop" type="email" name="_replyto" placeholder="Email">
+ <input class="drop" type="text" name="_subject" placeholder="Subject">
+ <textarea class="drop" type="text" placeholder="Message"></textarea> 
+ <input type="text" name="_gotcha" style="display:none" />
 <label>
     <input type="submit" />
  <div class="container">

@@ -175,7 +175,7 @@ form {
 	width: 187px;
 }
 
-[type=text] {
+[type=text], [type=email] {
 	background-color: rgba(211, 211, 211, 0.2);
 	border: 0;
 	font-size: 14px;
@@ -213,6 +213,12 @@ textarea {
 	font-size: 135%;
 	font-weight: 800;
 	letter-spacing: 3.5px;
+	transition: transform 2s;
+	cursor: pointer;
+}
+
+.circular svg:hover {
+	transform: rotate(20deg);
 }
 
 form input[type="submit"] {

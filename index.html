@@ -108,15 +108,53 @@
 </section>
 
 <section id="contact" class="contact">
-	
-	<form action="https://formspree.io/your@email.com" method="POST">
 
+<form id="contact-form">
+
+
+  <input class="half" type="text" name="name" placeholder="First Name" id="inputName" />
+  <input class="half" type="text" name="name" placeholder="Last Name" />
+
+  <input type="email" class="drop" id="inputEmail" placeholder="Email" name="email" />
+
+  <input class="drop" type="text" name="_subject" placeholder="Subject">
+
+  <textarea class="drop" type="text" id="inputMessage" placeholder="Leave a Message" name="message"></textarea>
+ 
+
+  <label>
+    <input type="submit" />
+ <div class="container">
+ <div class="circular">
+  <svg viewBox="0 0 100 100">
+    <defs>
+      <path d="M 0,50 a 50,50 0 1,1 0,1 z" id="circle" />
+    </defs>
+    <text>
+      <textPath xlink:href="#circle">
+        Get In Touch! Submit!
+      </textPath></text>
+  </svg>
+</div>
+</div>
+</label>
+
+
+  <div class="submit-fail display-none">Please fill in all form fields<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
+
+  <div class="submit-success display-none">Thanks for stopping to say Hello!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
+  
+  <span></span>
+</form>
+	
+<!--
+	<form action="https://formspree.io/gilbycreative@gmail.com" method="POST">
+<input type="hidden" name="_next" value="#work" />
  <input class="half" type="text" name="name" placeholder="First Name"> 
  <input class="half" type="text" name="name" placeholder="Last Name">
  <input class="drop" type="email" name="_replyto" placeholder="Email">
  <input class="drop" type="text" name="_subject" placeholder="Subject">
  <textarea class="drop" type="text" placeholder="Message"></textarea> 
- <input type="text" name="_gotcha" style="display:none" />
 <label>
     <input type="submit" />
  <div class="container">
@@ -134,13 +172,14 @@
 </div>
 </label>
 </form>
+-->
 
 <div class="social__links">
 	<ul>
-		<li><a class="social__link" href="">instagram</a></li>
-		<li><a class="social__link" href="">codepen</a></li>
-		<li><a class="social__link" href="">github</a></li>
-		<li><a class="social__link" href="">linkedin</a></li>
+		<li><a class="social__link" href="https://www.instagram.com/xj.nny/">instagram</a></li>
+		<li><a class="social__link" href="http://codepen.io/xjenny/">codepen</a></li>
+		<li><a class="social__link" href="https://github.com/xjnny">github</a></li>
+		<li><a class="social__link" href="http://linkedin.com/in/jennycrowther/">linkedin</a></li>
 	</ul>
 </div>
 	

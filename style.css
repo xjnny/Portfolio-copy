@@ -163,6 +163,11 @@ header .site__header {
 
 /*contact*/
 
+.display-none {
+  display: none;
+}
+
+
 
 form {
 	width: 420px;

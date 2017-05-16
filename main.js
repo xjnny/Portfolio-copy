@@ -39,7 +39,7 @@ $(document).ready(function() {
         e.preventDefault();
         $(this).get(0).reset();
         $('.submit-success').fadeIn(400).delay(1500).fadeOut(400);
-		$('.submit-fail').fadeToggle(400);
+		$('.submit-fail').hide;
       }
     });
   

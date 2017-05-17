@@ -14,7 +14,10 @@ $(document).ready(function(){
 
 
 $(document).ready(function($) {
-			$('.my-slider').unslider();
+			$('.my-slider').unslider({
+			infinite: true
+			});
+	
 });
 
 

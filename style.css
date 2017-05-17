@@ -131,7 +131,12 @@ header .site__header {
   right: 0;
   width: 40%;
   height: 70vh;
-  background-color: gainsboro;
+  background-image: url("/Users/Leaf/Desktop/Portfolio copy/imgs/13580379_10154869226052788_581449634587761800_o copy.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
   z-index: -1;
 }
 

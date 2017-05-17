@@ -1,159 +1,153 @@
 html {
-	font-size: 16px
+  font-size: 16px
 }
 
 h1 {
-	font-size: 50px
+  font-size: 50px
 }
 
 h2 {
-	font-size: 37px
+  font-size: 37px
 }
 
 h3 {
-	font-size: 28px
+  font-size: 28px
 }
 
 h4 {
-	font-size: 20px;
-	font-weight: 400;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-h1,
-h2,
-h3,
-h4 {
-	font-family: "Martel";
+h1, h2, h3, h4 {
+  font-family: "Martel";
 }
 
 body {
-	font-family: "Karla";
+  font-family: "Karla";
 }
 
 section {
-	height: 90vh;
-	display: block;
-	margin: 0;
+  height: 90vh;
+  display: block;
+  margin: 0;
 }
 
 section.about {
-	padding: 20px 50px;
-	border: 20px solid rgba(77, 166, 172, .35);
+  padding: 20px 50px;
+  border: 20px solid rgba(77, 166, 172, .35);
 }
 
-
 section.work {
-	height: 92vh;
-	padding: 20px 50px 0px 50px;
-	background-color: rgba(77, 166, 172, .35);
+  height: 92vh;
+  padding: 20px 50px 0px 50px;
+  background-color: rgba(77, 166, 172, .35);
 }
 
 section.contact {
-	padding: 20px 50px;
-	border: 20px solid rgba(77, 166, 172, .35);
+  padding: 20px 50px;
+  border: 20px solid rgba(77, 166, 172, .35);
 }
 
-
 a {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .navbar {
-	position: fixed;
-	display: block;
-	top: 30px;
-	right: 50px;
-	z-index: 3;
+  position: fixed;
+  display: block;
+  top: 30px;
+  right: 50px;
+  z-index: 3;
 }
 
 ul li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px 20px;
+  list-style: none;
+  display: inline-block;
+  margin: 10px 20px;
 }
 
 .nav__link {
-	display: inline-block;
-	color: #000;
-	text-decoration: none;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
 }
 
 .nav__link::after {
-	content: '';
-	display: block;
-	width: 0;
-	height: 2px;
-	background: rgba(77, 166, 172, 1);
-	transition: width .3s;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgba(77, 166, 172, 1);
+  transition: width .3s;
 }
 
 .nav__link:hover::after {
-	width: 100%;
+  width: 100%;
 }
 
 header .site__header {
-	display: none;
+  display: none;
 }
 
 .site__header {
-	font-size: 64px;
-	display: flex;
-	margin: 20px 0;
+  font-size: 64px;
+  display: flex;
+  margin: 20px 0;
 }
 
 .character-wrapper {}
 
 .character-replacement {
-	display: none;
+  display: none;
 }
 
 .character-original {
-	display: inline;
-	font-weight: 600;
+  display: inline;
+  font-weight: 600;
 }
 
 .space {
-	margin-left: 12px;
+  margin-left: 12px;
 }
 
 
 /*/// about*/
 
 .about__text {
-	padding: 250px 0 50px 0;
-	width: 700px;
+  padding: 250px 0 50px 0;
+  width: 700px;
 }
 
 .about__text p {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .about__image {
-	position: absolute;
-	top: 20%;
-	left: 53%;
-	right: 0;
-	width: 40%;
-	height: 70vh;
-	background-color: gainsboro;
-	z-index: -1;
+  position: absolute;
+  top: 20%;
+  left: 53%;
+  right: 0;
+  width: 40%;
+  height: 70vh;
+  background-color: gainsboro;
+  z-index: -1;
 }
-
 
 
 /* work */
 
 .unslider-nav {
-	display: none;
+  display: none;
 }
 
-.my-slider ul li {	
-	height: 85vh;
+.my-slider ul li {
+  height: 85vh;
 }
 
 .unslider-arrow {
-	top: 150vh;	
+  top: 150vh;
 }
 
 .list__item {
@@ -163,7 +157,7 @@ header .site__header {
 }
 
 .portfolio {
-	width: 60%;
+  width: 60%;
 }
 
 
@@ -173,82 +167,79 @@ header .site__header {
   display: none;
 }
 
-
-
 form {
-	width: 420px;
-	margin: 0 auto;
-	padding-top: 120px;
+  width: 420px;
+  margin: 0 auto;
+  padding-top: 120px;
 }
 
 .half {
-	margin: 0;
-	width: 187px;
+  margin: 0;
+  width: 187px;
 }
 
 [type=text], [type=email] {
-	background-color: rgba(211, 211, 211, 0.2);
-	border: 0;
-	font-size: 14px;
-	letter-spacing: 1px;
-	padding: 10px 10px;
-	margin-bottom: 5px;
+  background-color: rgba(211, 211, 211, 0.2);
+  border: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  margin-bottom: 5px;
 }
 
 .drop {
-	display: block;
-	width: 400px;
+  display: block;
+  width: 400px;
 }
 
 textarea {
-	height: 200px;
+  height: 200px;
 }
 
 .container {
-	position: relative;
-	width: 400px;
-	height: 100px;
+  position: relative;
+  width: 400px;
+  height: 100px;
 }
 
 .circular {
-	position: absolute;
-	top: -50px;
-	left: 367px;
-	width: 5em;
-	margin: 0 auto;
+  position: absolute;
+  top: -50px;
+  left: 367px;
+  width: 5em;
+  margin: 0 auto;
 }
 
 .circular svg {
-	display: block;
-	overflow: visible;
-	font-size: 135%;
-	font-weight: 800;
-	letter-spacing: 3.5px;
-	transition: transform 2s;
-	cursor: pointer;
+  display: block;
+  overflow: visible;
+  font-size: 135%;
+  font-weight: 800;
+  letter-spacing: 3.5px;
+  transition: transform 2s;
+  cursor: pointer;
 }
 
 .circular svg:hover {
-	transform: rotate(20deg);
+  transform: rotate(20deg);
 }
 
 form input[type="submit"] {
-	display: none;
+  display: none;
 }
 
 .social__links {
-	font-size: 12px;
-    width: 400px;
-    text-align: center;
-    margin: 0 auto;
+  font-size: 12px;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .social__links ul {
-	
-	padding: 0;
+  padding: 0;
 }
 
 .social__links a {
-	color: lightgray;
-	font-weight: 200;
+  color: lightgray;
+  font-weight: 200;
 }

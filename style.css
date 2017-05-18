@@ -121,12 +121,13 @@ header .site__header {
 /*/// about*/
 
 .about__text {
-  padding: 250px 0 50px 0;
-  width: 700px;
+  padding: 250px 0 50px 20px;
+  width: 720px;
 }
 
 .about__text p {
   font-size: 28px;
+  letter-spacing: .5px;
 }
 
 .about__image {
@@ -136,12 +137,9 @@ header .site__header {
   right: 0;
   width: 40%;
   height: 70vh;
-  background-image: url("imgs/13580379_10154869226052788_581449634587761800_o.jpg");
+  background-image: url("imgs/me.jpg");
   background-position: center;
   background-size: cover;
-  opacity: 0.5;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
   z-index: -1;
 }
 
@@ -296,4 +294,48 @@ form input[type="submit"] {
 .social__links a {
   color: lightgray;
   font-weight: 200;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px){
+ .about__text p {
+    width: 80%;
+    font-size: 24px;
+  }
+  .site__header {
+    font-size: 50px;
+  }
+  .portfolio {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 700px) and (min-width: 300px){
+
+.about__text {
+  padding: 100px 0 50px 0;
+}
+  .about__text p {
+     width: 50%;
+     font-size: 20px;
+   }
+   .site__header {
+     font-size: 40px;
+   }
+   .about__image {
+     position: absolute;
+     top: 40%;
+left: 33%;
+right: 0;
+width: 60%;
+height: 50vh;
+   }
+
+   .portfolio {
+       width: 90%;
+   }
+   .list__item p {
+    letter-spacing: 0.5px;
+    width: 80%;
+    margin: 30px auto;
+}
 }

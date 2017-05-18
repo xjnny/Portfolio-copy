@@ -14,7 +14,9 @@ $(document).ready(function() {
 
 $(document).ready(function($) {
   $('.my-slider').unslider({
-    infinite: true
+    infinite: true,
+    arrows: true,
+    keys: true
   });
 
 });

@@ -7,26 +7,28 @@
 	<meta name="description" content="">
 	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
 	<link rel="shortcut icon" type="image/png" href="favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Karla|Martel" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/css/unslider.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.fullpage/2.9.4/jquery.fullpage.min.css" />
 	<link rel="stylesheet" href="style.css"> </head>
 
-<body>
+<body id="fullpage">
 	<header>
 		<nav class="navbar">
 			<ul>
-				<li><a class="nav__link" href="#about">about</a></li>
+				<li><a class="nav__link"  href="#about">about</a></li>
 				<li><a class="nav__link" href="#work">work</a></li>
-				<li><a class="nav__link" href="#contact">contact</a></li>
+				<li><a class="nav__link"  href="#contact">contact</a></li>
 			</ul>
 		</nav>
 	</header>
 
 
-	<section id="about" class="about">
+	<section id="about" class="about section">
 
 		<div class="about__text">
-			<a href="">
+			<a href="#about">
 				<h2 class="site__header ">
 
 	<span class="character-wrapper">
@@ -83,24 +85,30 @@
   </span>
   </h2> </a>
 
-			<p>Hi there! I’m a designer and web developer based in Christchurch, New Zealand. I love designing and building things!
+			<p>Hey! I’m a designer and web developer based in Christchurch, New Zealand. I love designing and building things!
 			</p>
 		</div>
 		<div class="about__image">
 		</div>
 	</section>
 
-	<section id="work" class="work">
+	<section id="work" class="work section">
 		<div class="my-slider">
 			<ul>
 				<li class="list__item">
-					<a href="http://jenny.crowther.yoobee.net.nz/WE02/Crowther%20-%20WE02/FlyToTheLimit/index.html">
+
         <img class="portfolio" src="imgs/flytothelimit.png">
         <h4>Fly To The Limit</h4>
-				<p>Website for an adventure toruism company built using HTML, CSS, Javascript</p>
-				<a href="http://jenny.crowther.yoobee.net.nz/WE02/Crowther%20-%20WE02/FlyToTheLimit/index.html">View Project</a>
+				<p>Website for an adventure tourism company built using HTML, CSS, Javascript</p>
+				<div class="underline--container"><a class="link" href="http://jenny.crowther.yoobee.net.nz/WE02/Crowther%20-%20WE02/FlyToTheLimit/index.html">View Project</a>
         </a>
-				</li>
+				<!-- <svg class="underline">
+      <path class="underline--path" d="">
+        <animate class="underline--animation" attributeName="d" dur="0.3s" begin="indefinite" fill="freeze"></animate>
+      </path>
+    </svg> -->
+	</div>
+	</li>
 				<li class="list__item">
 					<a href="http://jenny.crowther.yoobee.net.nz/WE03/Crowther-WE03/web/index.php">
         <img class="portfolio" src="imgs/theperfectpour.png">
@@ -129,7 +137,7 @@
 		</div>
 	</section>
 
-	<section id="contact" class="contact">
+	<section id="contact" class="contact section">
 
 		<form id="contact-form">
 
@@ -182,6 +190,7 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/unslider/2.0.3/js/unslider-min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.fullpage/2.9.4/jquery.fullpage.min.js"></script>
 <script src="main.js"></script>
 
 </html>
